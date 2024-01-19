@@ -11,21 +11,41 @@
 </head>
 <body>
     <div class="sosmed-navbar">
-        <div
-            class="sosmed-logo flex justify-between py-[10px] px-[5%] mt-[10px] ml-[40px] mr-[40px] rounded bg-white
-            border-solid border-2 border-black shadow-lg">
+        <div class="sosmed-logo flex justify-between py-[10px] px-[5%] bg-white">
             <div class="logo w-[60px]">
                 <a href=""><img src="img/logo.png" alt=""></a>
             </div>
             <div class="sosmed text-[17px] flex gap-[17px]">
-                <div class="instagram"><a href=""><i class="bi bi-instagram"></i></a></div>
-                <p class="garis">|</p>
-                <div class="linkedin"><a href=""><i class="bi bi-linkedin"></i></a></div>
-                <p class="garis">|</p>
-                <div class="github"><a href=""><i class="bi bi-github"></i></a></div>
-                <p class="garis">|</p>
-                <div class="email"><a href=""><i class="bi bi-envelope-fill"></i></a></div>
+                <div class="instagram hover:scale-110 hover:text-blue-500">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="linkedin hover:scale-110 hover:text-blue-500">
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div class="github hover:scale-110 hover:text-blue-500">
+                    <a href=""><i class="bi bi-github"></i></a>
+                </div>
+                <div class="email hover:scale-110 hover:text-blue-500">
+                    <a href=""><i class="bi bi-envelope-fill"></i></a>
+                </div>
             </div>
+            <div class="dark-light cursor-pointer">
+                <div class="dark">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </div>
+                <div class="light hidden">
+                    <i class="bi bi-sun-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="navbar flex justify-center py-[15px] bg-[#091D3E] text-white">
+            <nav class="flex gap-[30px]">
+                <a href=""><p class="hover:text-blue-500 transition all delay-100 ease-out">Home</p></a>
+                <a href=""><p class="hover:text-blue-500 transition all delay-100 ease-out">About Me</p></a>
+                <a href=""><p class="hover:text-blue-500 transition all delay-100 ease-out">Project</p></a>
+                <a href=""><p class="hover:text-blue-500 transition all delay-100 ease-out">Certificate</p></a>
+                <a href=""><p class="hover:text-blue-500 transition all delay-100 ease-out">Contact</p></a>
+            </nav>
         </div>
     </div>
 </body>
