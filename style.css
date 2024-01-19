@@ -1,0 +1,14 @@
+/* css sosmed */
+@media (max-width: 400px) {
+    .garis {
+        display: none;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .sosmed i {
+        font-size: 15px;
+    }
+}
