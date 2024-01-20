@@ -10,7 +10,7 @@
     <title>Khairul Kholqi | Personal Website</title>
 </head>
 <body>
-    <div class="sosmed-navbar">
+    <div class="sosmed-navbar fixed left-[0] right-0 z-[99]">
         <div class="sosmed-logo flex justify-between py-[10px] px-[5%] bg-white">
             <div class="logo w-[60px]">
                 <a href=""><img src="img/logo.png" alt=""></a>
@@ -30,15 +30,15 @@
                 </div>
             </div>
             <div class="dark-light cursor-pointer">
-                <div class="dark">
+                <div class="dark hover:text-blue-500">
                     <i class="bi bi-moon-stars-fill"></i>
                 </div>
-                <div class="light hidden">
+                <div class="light hidden hover:text-blue-500">
                     <i class="bi bi-sun-fill"></i>
                 </div>
             </div>
         </div>
-        <div class="navbar flex justify-center py-[18px] bg-[#091D3E] text-white ml-[0] mr-[0]">
+        <div class="navbar flex justify-center py-[18px] bg-[#091D3E] text-white">
             <nav class="flex gap-[30px]">
                 <a href=""><p class="hover:text-blue-500">Home</p></a>
                 <a href=""><p class="hover:text-blue-500">About Me</p></a>
@@ -49,6 +49,20 @@
             <div class="navbar-extra">
                 <p class="text-white text-[25px] hidden" id="hamburger"><i class="bi bi-list"></i></p>
             </div>
+        </div>
+    </div>
+    <div class="first-content flex justify-center gap-[50px] py-[10%]">
+        <div class="text">
+            <h3>Hello There</h3>
+            <h1>I'm Muhammad <br> Khairul Kholqi</h1>
+            <p>a Software Engineer</p>
+            <div class="buttons">
+                <button type="button"><a href="">About Me</a></button>
+                <button type="button"><a href="">Download CV</a></button>
+            </div>
+        </div>
+        <div class="picture w-[100px]">
+            <img src="img/logo.png" alt="">
         </div>
     </div>
 <script src="script.js"></script>
