@@ -1,7 +1,9 @@
-// js navbar
-document.getElementById('hamburger').addEventListener('click', function () {
-     var nav = document.querySelector('.navbar nav');
-     nav.style.display = (nav.style.display === 'block') ? 'none' : 'block';
- });
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerIcon = document.getElementById('hamburger');
+    const navbar = document.querySelector('.navbar');
 
-//  js dark mode
+    hamburgerIcon.addEventListener('click', function () {
+        console.log('Hamburger Clicked');
+        navbar.style.display = (navbar.style.display === 'none' || navbar.style.display === '') ? 'flex' : 'none';
+    });
+});
